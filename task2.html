@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <style>
+                 .container > *{
+            background-color: #abc;
+            color: darkblue;
+            font-size: 30px;
+            text-align: center;
+        }
+           
+        .container{
+            display: grid;
+            height: 100vh;
+            gap: 10px;
+            grid-template-columns: repeat(4,150px);
+            grid-template-rows: repeat(3,100px);
+        }
+        .a{ 
+            grid-row: 1/4;
+             background-color: green;
+        }
+        .b{
+            grid-column: 2/4;
+            background-color: green ;
+        }
+        .c{
+            grid-row: 2/3;
+            background-color: darkgoldenrod;
+        }
+        .d{
+            grid-row: 3/4;
+            background-color: red;
+        }
+        .e{
+            grid-row: 3/2;
+            background-color: red;
+        }
+        .f{
+            grid-row: 3/4;
+            background-color: darkgoldenrod;
+        }
+        .g{
+            grid-column: 1/;
+            background-color: red;
+        }
+        .h{
+            grid-row: 2/4 ;
+            background-color: green;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="c"></div>
+            <div class="d"></div>
+            <div class="e"></div>
+            <div class="f"></div>
+            <div class="g"></div>
+            <div class="h"></div>
+        </div>
+    </body>
+</html>
